@@ -10,12 +10,11 @@ import { AppModule } from '../app.module';
 
 
 @NgModule({
-  declarations: [ProductsDetailsComponent],
+  declarations: [ProductsDetailsComponent,AllProductsComponent],
   imports: [
     CommonModule,
     RouterModule,
     SharedModule,
-    AllProductsComponent,
     BrowserModule,
     AppModule
     

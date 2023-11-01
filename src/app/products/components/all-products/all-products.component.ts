@@ -7,8 +7,6 @@ import { AppModule } from 'src/app/app.module';
   selector: 'app-all-products',
   templateUrl: './all-products.component.html',
   styleUrls: ['./all-products.component.scss'],
-  imports: [CommonModule],
-  standalone: true,
  
 })
 export class AllProductsComponent implements OnInit {
